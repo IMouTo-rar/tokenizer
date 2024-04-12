@@ -8,5 +8,9 @@ description = "simple tokenizer for dataset"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+unicode-segmentation = "1.11.0"
+soup = "0.5.1"
 serde_json = "1.0"
 regex = "1.5.4"
+xml5ever = "0.18.0"
+markup5ever_rcdom = "0.3.0"
